@@ -1,0 +1,34 @@
+.exitButton {
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 12px;
+    text-shadow: 7px 4px 0 rgb(0, 0, 0);
+    -unity-text-outline-color: rgb(156, 0, 79);
+    -unity-text-outline-width: 2px;
+    -unity-text-align: middle-left;
+    flex-grow: 0;
+    width: 100%;
+    height: 100%;
+    top: -11px;
+    white-space: nowrap;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+
+.exitButton:hover {
+    font-size: 130px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 12px;
+    text-shadow: 7px 4px 0 rgb(0, 0, 0);
+    -unity-text-outline-color: rgb(156, 0, 79);
+    -unity-text-outline-width: 2px;
+    -unity-text-align: middle-left;
+    flex-grow: 0;
+    width: 100%;
+    height: 100%;
+    top: -11px;
+    white-space: nowrap;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    rotate: -45deg;
+}

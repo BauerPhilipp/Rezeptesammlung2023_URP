@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS-Files/Recipes.uss?fileID=7433441132597879392&amp;guid=f0510f1c61d017546bf4401afeae0bf2&amp;type=3#Recipes" />
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="TopButtons" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 100%; height: 200px; align-items: center; flex-direction: row;">
+            <ui:VisualElement name="MainMenuButton" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; margin-right: 0; margin-left: 29px;">
+                <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/Sprites/icons-1174826.png?fileID=-2084008044&amp;guid=df56e9c5933db1849b0d18e7041027f1&amp;type=3#icons-1174826_12&apos;);" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Sprites/icons-1174826.png?fileID=-1215045739&amp;guid=df56e9c5933db1849b0d18e7041027f1&amp;type=3#icons-1174826_8&apos;); -unity-background-scale-mode: stretch-to-fill; width: 150px; height: 150px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="RecipeScrollView" style="min-height: 70%; align-items: center; justify-content: center;" />
+    </ui:VisualElement>
+</ui:UXML>

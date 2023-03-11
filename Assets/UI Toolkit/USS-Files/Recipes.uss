@@ -1,0 +1,36 @@
+.unity-scroll-view__content-container {
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(250, 250, 250);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 255, 221);
+}
+
+.recipeButton {
+    height: 136px;
+    width: 983px;
+    -unity-font-style: bold;
+    font-size: 80px;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    border-left-width: 9px;
+    border-right-width: 9px;
+    border-top-width: 9px;
+    border-bottom-width: 9px;
+    border-left-color: rgb(15, 255, 0);
+    border-right-color: rgb(15, 255, 0);
+    border-top-color: rgb(15, 255, 0);
+    border-bottom-color: rgb(15, 255, 0);
+    border-top-left-radius: 57px;
+    border-bottom-left-radius: 57px;
+    border-top-right-radius: 57px;
+    border-bottom-right-radius: 57px;
+    background-color: rgb(47, 0, 255);
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    letter-spacing: 8px;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=683270db16a2e024f90fd8004f0fe3c1&type=3#NotInter-Regular');
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}

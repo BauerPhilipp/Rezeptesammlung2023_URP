@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgb(255, 0, 0);">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Sprites/Background/BlaueKacheln.png?fileID=2800000&amp;guid=31711fc530b0ed34fb7a39b0716cd409&amp;type=3#BlaueKacheln&apos;); align-items: center;">
+            <ui:VisualElement name="Essen" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 800px; height: 800px; background-image: url(&apos;project://database/Assets/Photoshop/Burger.png?fileID=2800000&amp;guid=de169a17e8c4fe24593fee2128fa4524&amp;type=3#Burger&apos;); align-items: center; justify-content: center;" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center; width: 100%; flex-direction: row;">
+                <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-basis: auto; width: 70%; height: 100%;" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-basis: auto; width: 30px; height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
