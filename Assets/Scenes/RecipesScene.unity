@@ -418,8 +418,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1322300944}
   - component: {fileID: 1322300943}
-  - component: {fileID: 1322300945}
   - component: {fileID: 1322300946}
+  - component: {fileID: 1322300947}
   m_Layer: 5
   m_Name: SpeisenScreen
   m_TagString: Untagged
@@ -459,18 +459,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1322300945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322300942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53769bcbe687b434d9346638b15290cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1322300946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,8 +471,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7514b68ea5d4a458f6bbf8483917ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recipeTemplate: {fileID: 9197481963319205126, guid: c13599a19de4bad439cd051eeb91fc56,
-    type: 3}
+--- !u!114 &1322300947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322300942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53769bcbe687b434d9346638b15290cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836463036
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
-public class SpeisenButtonManager : MonoBehaviour
+public class BackToMainMenue : MonoBehaviour
 {
     VisualElement root;
     VisualElement mainMenuButton;

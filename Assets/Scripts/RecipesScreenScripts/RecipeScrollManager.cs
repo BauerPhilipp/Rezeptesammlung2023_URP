@@ -5,18 +5,32 @@ using UnityEngine.UIElements;
 
 public class RecipeScrollManager : MonoBehaviour
 {
+    RecipeButtonCreator recipeButtonCreator;
 
     VisualElement root;
     ScrollView recipeScrollView;
-    [SerializeField] VisualTreeAsset recipeTemplate;
+    List<Button> RecipeButtonList;
+
+    [SerializeField] List<RecipeSO> recipesSOList;
+
+
+
 
     private void Start()
     {
+
+
         root = GetComponent<UIDocument>().rootVisualElement;
         recipeScrollView = root.Q<ScrollView>("RecipeScrollView");
-        recipeScrollView.Add(recipeTemplate.Instantiate());
-        recipeScrollView.Add(recipeTemplate.Instantiate());
+        recipeButtonCreator = new RecipeButtonCreator(recipesSOList);
     }
+
+
+    private void CreateRecipeButtons()
+    {
+
+    }
+
 
 
 }
