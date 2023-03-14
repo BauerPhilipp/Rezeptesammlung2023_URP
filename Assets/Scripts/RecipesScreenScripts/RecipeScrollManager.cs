@@ -9,8 +9,8 @@ public class RecipeScrollManager : MonoBehaviour
 
     VisualElement root;
     ScrollView recipeScrollView;
-    List<Button> RecipeButtonList;
 
+    List<Button> recipeButtonList;
     [SerializeField] List<RecipeSO> recipesSOList;
 
 
@@ -18,17 +18,21 @@ public class RecipeScrollManager : MonoBehaviour
 
     private void Start()
     {
-
+        recipeButtonCreator = new RecipeButtonCreator();
 
         root = GetComponent<UIDocument>().rootVisualElement;
         recipeScrollView = root.Q<ScrollView>("RecipeScrollView");
-        recipeButtonCreator = new RecipeButtonCreator(recipesSOList);
+        CreateRecipeButtons();
     }
 
 
     private void CreateRecipeButtons()
     {
-
+        recipeButtonList = recipeButtonCreator.CreateButtonList(recipesSOList);
+        foreach (Button button in recipeButtonList) 
+        {
+            recipeScrollView.Add(button);
+        }
     }
 
 

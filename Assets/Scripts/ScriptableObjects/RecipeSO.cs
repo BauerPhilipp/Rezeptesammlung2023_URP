@@ -15,9 +15,9 @@ public class RecipeSO : ScriptableObject
     {
     }
 
-    public void  GetSpiceList()
+    public List<Spice>  GetSpiceList()
     {
-
+        return spices;
     }
 
 
