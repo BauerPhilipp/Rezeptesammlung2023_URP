@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d869f683d3817478c7199b9c847e11, type: 3}
   m_Name: "Grie\xDFkoch"
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: b60deedd8bc4e8f40aa228cdd44a2eee, type: 3}
   rezeptName: "Grie\xDFkoch"
   spices:
   - spiceType: 0

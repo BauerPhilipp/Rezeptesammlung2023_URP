@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Create recipe template", fileName ="Recipe template")]
 public class RecipeSO : ScriptableObject
 {
-    [SerializeField] Sprite image;
+    public Sprite image;
     public string rezeptName;
     [SerializeField] List<Spice> spices;
 

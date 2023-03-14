@@ -1,9 +1,4 @@
 .unity-scroll-view__content-container {
-    align-items: center;
-    justify-content: flex-start;
-    color: rgb(250, 250, 250);
-    -unity-text-outline-width: 0;
-    -unity-text-outline-color: rgb(0, 255, 221);
 }
 
 .recipeButton {
@@ -33,4 +28,12 @@
     margin-right: 31px;
     margin-top: 31px;
     margin-bottom: 31px;
+    color: rgb(255, 255, 255);
+}
+
+.unity-scroll-view {
+    width: 100%;
+    height: auto;
+    min-height: 50%;
+    flex-grow: 1;
 }

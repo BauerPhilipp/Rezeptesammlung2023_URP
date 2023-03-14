@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d869f683d3817478c7199b9c847e11, type: 3}
   m_Name: Milchreis
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 6412ce8adc55fea44a9200cd895cb45b, type: 3}
   rezeptName: Milchreis
   spices:
   - spiceType: 2
